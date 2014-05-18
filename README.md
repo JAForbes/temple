@@ -3,6 +3,9 @@ Temple
 
 Simple Javascript Templating functions
 
+What is temple?
+---------------
+
 Temple allows you to easily make dynamic web pages, using a familiar syntax.
 Temple is simple (only 60 lines unminified), and can be used in concert with any
 other framework as it has no dependencies.

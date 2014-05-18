@@ -14,10 +14,10 @@ do ->
 
 	tagCreator = (tag) ->
 			(attr,content) ->
-				if arguments.length is 1
+				if arguments.length is 1 and not isObject(attr)
 					content = attr
 
-				content = content or '' 
+				content = content or ''
 				content = content.join and content.join('') or content
 
 				"""

@@ -16,7 +16,7 @@
     };
     tagCreator = function(tag) {
       return function(attr, content) {
-        if (arguments.length === 1) {
+        if (arguments.length === 1 && !isObject(attr)) {
           content = attr;
         }
         content = content || '';

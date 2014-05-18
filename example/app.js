@@ -14,6 +14,10 @@ function example(){
 			)
 		),
 
+		p('You can have just attributes with no content - like the square below'),
+
+		div({class:'square'}),
+
 		ul([
 			li('Any'),
 			li('Tag'),
@@ -24,6 +28,9 @@ function example(){
 			li('Of'),
 			li('Tags')
 		]),
+
+
+		h2('Source Code for example: '),
 
 		pre(example.toString())
 	])
