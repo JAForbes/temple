@@ -41,7 +41,7 @@ div({class:'content'}, [
 Method Signatures
 -----------------
 
-The method signature is the same for all functions.  
+The method signatures are the same for all functions.  
 All methods return a HTML string.
 
 Hash to provide attributes:
@@ -52,7 +52,7 @@ Returns: `"<a href='http://google.com'></a>"`
 
 Second argument is the content wrapped by the tag:
 
-`a({href:'http://google.com},'Content')'`
+`a({href:'http://google.com},'Content')`
 
 Returns: `"<a href='http://google.com'>Content</a>"`
 

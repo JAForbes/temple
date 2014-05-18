@@ -1,3 +1,12 @@
+###
+
+	Author: James Forbes
+	Date: 2014-18-05
+	Version: 0.01
+	Licence: MIT
+
+###
+
 do ->
 
 	isObject = (obj) ->
