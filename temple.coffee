@@ -22,6 +22,23 @@ do ->
 		else 
 			''
 
-	
-	window[tag] = tagCreator(tag) for tag in (['div','h1','img','p','a','script'])
+	headings = ("h"+i for i in [1..6])
+	tags = [
+		'div'
+		'img'
+		'p'
+		'a'
+		'i'
+		'b'
+		'script'
+		'code'
+		'pre'
+		'ul'
+		'ol'
+		'li'
+		'canvas'
+		'table'
+	].concat(headings)
+
+	window[tag] = tagCreator(tag) for tag in (tags)
 		
