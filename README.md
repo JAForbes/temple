@@ -16,7 +16,7 @@ Quick Start
 There is an example web page in `/example/index.html`
 
 ```javascript
-div({class:'content'}, [
+div({class:'content'}, 
 
 		h1('Temple'),
 		h4('Simple javascript templating functions'),
@@ -30,7 +30,7 @@ div({class:'content'}, [
 			)
 		),
 
-		ul([
+		ul(
 			li('Any'),
 			li('Tag'),
 			li('Can'),
@@ -39,8 +39,8 @@ div({class:'content'}, [
 			li('Array'),
 			li('Of'),
 			li('Tags')
-		])
-	])
+		)
+	)
 
 
 ```
@@ -70,7 +70,7 @@ Single argument signature allows you to pass only the content
 Content can be an array or a string.  This allows you to nest multiple items.
 
 ```javascript
-ul([
+ul(
 	li('Any'),
 	li('Tag'),
 	li('Can'),
@@ -79,5 +79,5 @@ ul([
 	li('Array'),
 	li('Of'),
 	li('Tags')
-])
+)
 ```

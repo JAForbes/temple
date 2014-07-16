@@ -1,6 +1,6 @@
 function example(){
 
-	return div({class:'content'}, [
+	return div({class:'content'}, 
 
 		h1('Temple'),
 		h4('Simple javascript templating functions'),
@@ -18,22 +18,22 @@ function example(){
 
 		div({class:'square'}),
 
-		ul([
+		ul(
 			li('Any'),
 			li('Tag'),
 			li('Can'),
 			li('Accept'),
 			li('An'),
-			li('Array'),
+			li('Number'),
 			li('Of'),
-			li('Tags')
-		]),
+			li('Tags'),
+			li('Arguments')
+		),
 
 
-		h2('Source Code for example: '),
+		h2('Source Code for example: ')
 
-		pre(example.toString())
-	])
+	)
 }
 
 document.write(example())
